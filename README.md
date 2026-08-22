@@ -32,3 +32,8 @@
 * CMake 3.15+
 
 ### Build Commands
+```bash
+mkdir build && cd build
+cmake .. -DCMAKE_BUILD_TYPE=Release
+cmake --build . --config Release
+./Release/engine_bench.exe
